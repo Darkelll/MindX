@@ -1,0 +1,11 @@
+TODO = Fix the mobile <prompt-suggestion> and its designing and positioning
+
+TODO = Fix the issue of the messages:
+    1. <answer-section> are not responsive and does not store the previous messages in data, fix it and make the ai to remember previous messages
+
+OPTIONAL == Add the Google's sign up and Log in, to store the messages in the chat section(that you will create);
+
+// Add it after clicking the <button> in the index.html
+
+
+

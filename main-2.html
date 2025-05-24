@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mainPage/style-main.css">
+    <title>MindX</title>
+  </head>
+  <body class="page">
+    <div class="page-container">
+      <header class="header" id="header">
+        <div class="logo">
+          <img src="assets-main/Logo.svg" alt="header-star" />
+        </div>
+        <h1>Ask our AI anything!</h1>
+      </header>
+      <div class="content" id="content">
+        <section class="answer-section">Hello, How can I help you?😊</section>
+        <!-- <section class="question-section">
+                Hello!
+            </section> -->
+      </div>
+      <section id="prompt-suggestion">
+        <p><a href="#" id="prompt-suggestion-txt">Suggestions on what to ask Our AI</a></p>
+        <div class="prompt-boxes" id="prompt-suggestion-boxes">
+            <button class="prompt-box">What are some good study techniques for exams?</button>
+            <button class="prompt-box">How do I stay focused while studying?</button>
+            <button class="prompt-box">How can I manage my time better?</button>
+            <button class="prompt-box">Introduce Yourself</button>
+        </div>
+    </section>
+      <footer class="chat-form">
+        <input
+          class="chat-input"
+          type="text"
+          placeholder="Type message"
+          id="chatInput"
+          autocomplete="off"
+        />
+        <button class="send-button" id="sendButton">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: white"
+          >
+            <path
+              d="m21.426 11.095-17-8A1 1 0 0 0 3.03 4.242l1.212 4.849L12 12l-7.758 2.909-1.212 4.849a.998.998 0 0 0 1.396 1.147l17-8a1 1 0 0 0 0-1.81z"
+            ></path>
+          </svg>
+        </button>
+      </footer>
+    </div>
+    <script src="mainPage/script-main.js"></script>
+  </body>
+</html>
