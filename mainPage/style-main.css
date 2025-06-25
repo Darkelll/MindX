@@ -132,21 +132,8 @@
   flex-direction: column;
   gap: 1rem;
   overflow-y: scroll;
-}
-
-::-webkit-scrollbar {
-  /* background-color: #7886c7; */
-  width: 4px;
-  border-radius: 30px;
-  height: 90%;
-}
-
-::-webkit-scrollbar-track {
-  margin-block: 20px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  border-radius: 30px;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
 }
 
 .content section {
@@ -263,6 +250,7 @@
   height: 30px;
   transition: all 0.7s ease-out;
   background-color: transparent;
+  margin: 0 30px 0 0;
 }
 
 #prompt-suggestion p a {
@@ -288,6 +276,7 @@
   padding: 0 4px;
   justify-content: space-between;
   width: 105%;
+  height: 90%;
 }
 
 .prompt-box {
